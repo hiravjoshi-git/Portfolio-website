@@ -1,0 +1,44 @@
+[debug] [2024-11-20T21:33:49.665Z] ----------------------------------------------------------------------
+[debug] [2024-11-20T21:33:49.669Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ki\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2024-11-20T21:33:49.670Z] CLI Version:   13.26.0
+[debug] [2024-11-20T21:33:49.670Z] Platform:      win32
+[debug] [2024-11-20T21:33:49.670Z] Node Version:  v20.16.0
+[debug] [2024-11-20T21:33:49.670Z] Time:          Thu Nov 21 2024 03:03:49 GMT+0530 (India Standard Time)
+[debug] [2024-11-20T21:33:49.670Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-20T21:33:49.853Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-20T21:33:49.854Z] > authorizing via signed-in user (hiravjoshi4@gmail.com)
+[debug] [2024-11-20T21:33:49.854Z] [iam] checking project hiravjoshi14 for permissions ["firebase.projects.get"]
+[debug] [2024-11-20T21:33:49.855Z] Checked if tokens are valid: true, expires at: 1732141904388
+[debug] [2024-11-20T21:33:49.856Z] Checked if tokens are valid: true, expires at: 1732141904388
+[debug] [2024-11-20T21:33:49.857Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/hiravjoshi14:testIamPermissions [none]
+[debug] [2024-11-20T21:33:49.858Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/hiravjoshi14:testIamPermissions x-goog-quota-user=projects/hiravjoshi14
+[debug] [2024-11-20T21:33:49.858Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/hiravjoshi14:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-11-20T21:33:51.636Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/hiravjoshi14:testIamPermissions 200
+[debug] [2024-11-20T21:33:51.636Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/hiravjoshi14:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-11-20T21:33:51.637Z] Checked if tokens are valid: true, expires at: 1732141904388
+[debug] [2024-11-20T21:33:51.637Z] Checked if tokens are valid: true, expires at: 1732141904388
+[debug] [2024-11-20T21:33:51.638Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/hiravjoshi14 [none]
+[debug] [2024-11-20T21:33:52.247Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/hiravjoshi14 200
+[debug] [2024-11-20T21:33:52.248Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/hiravjoshi14 {"projectNumber":"962726377503","projectId":"hiravjoshi14","lifecycleState":"ACTIVE","name":"JoshiHirav","labels":{"firebase":"enabled"},"createTime":"2024-11-20T18:20:44.250918Z"}
+[info] 
+[info] === Serving from 'C:\Users\Ki\Desktop\My Portfolio'...
+[info] 
+[debug] [2024-11-20T21:33:52.255Z] Checked if tokens are valid: true, expires at: 1732141904388
+[debug] [2024-11-20T21:33:52.255Z] Checked if tokens are valid: true, expires at: 1732141904388
+[debug] [2024-11-20T21:33:52.256Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/hiravjoshi14/sites 
+[debug] [2024-11-20T21:33:53.687Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/hiravjoshi14/sites 200
+[debug] [2024-11-20T21:33:53.687Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/hiravjoshi14/sites {"sites":[{"name":"projects/hiravjoshi14/sites/hiravjoshi14","defaultUrl":"https://hiravjoshi14.web.app","appId":"1:962726377503:web:a5dff40f8f3a9b7468fd2a","type":"DEFAULT_SITE"}]}
+[debug] [2024-11-20T21:33:53.688Z] Checked if tokens are valid: true, expires at: 1732141904388
+[debug] [2024-11-20T21:33:53.688Z] Checked if tokens are valid: true, expires at: 1732141904388
+[debug] [2024-11-20T21:33:53.688Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hiravjoshi14/webApps/1:962726377503:web:a5dff40f8f3a9b7468fd2a/config [none]
+[debug] [2024-11-20T21:33:55.119Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hiravjoshi14/webApps/1:962726377503:web:a5dff40f8f3a9b7468fd2a/config 200
+[debug] [2024-11-20T21:33:55.119Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hiravjoshi14/webApps/1:962726377503:web:a5dff40f8f3a9b7468fd2a/config {"projectId":"hiravjoshi14","appId":"1:962726377503:web:a5dff40f8f3a9b7468fd2a","storageBucket":"hiravjoshi14.firebasestorage.app","apiKey":"AIzaSyB8BvNSE39H3kclIjYCYmNihKxIqSWM6Hg","authDomain":"hiravjoshi14.firebaseapp.com","messagingSenderId":"962726377503"}
+[debug] [2024-11-20T21:33:55.129Z] Checked if tokens are valid: true, expires at: 1732141904388
+[debug] [2024-11-20T21:33:55.130Z] Checked if tokens are valid: true, expires at: 1732141904388
+[debug] [2024-11-20T21:33:55.130Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hiravjoshi14 [none]
+[debug] [2024-11-20T21:33:55.840Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hiravjoshi14 200
+[debug] [2024-11-20T21:33:55.841Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hiravjoshi14 {"projectId":"hiravjoshi14","projectNumber":"962726377503","displayName":"JoshiHirav","name":"projects/hiravjoshi14","resources":{"hostingSite":"hiravjoshi14"},"state":"ACTIVE","etag":"1_079eca6c-bc7e-4b36-97bf-c41e07605736"}
+[info] i  hosting[hiravjoshi14]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[hiravjoshi14]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [20/Nov/2024:21:34:06 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [20/Nov/2024:21:34:06 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\""}}
